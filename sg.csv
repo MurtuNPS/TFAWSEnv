@@ -1,0 +1,2 @@
+type,from_port,to_port,protocol,cidr_blocks,sg
+ingress,3389,3389,tcp,0.0.0.0/0,test-sg
