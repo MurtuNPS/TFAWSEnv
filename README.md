@@ -20,5 +20,7 @@ aws account and key pair
 
 # Usage
 download folder and edit main.tf, terraform.tfvars, instances.csv and sg.csv as per your requirements.
+
 you may edit windows-userdata.tpl and linux-userdata.tpl to edit user data for your instances if required, current userdata initiallizes the disks for windows and linux
+
 run terraform init, validate, plan and apply
