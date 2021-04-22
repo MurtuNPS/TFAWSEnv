@@ -1,4 +1,4 @@
 name,image,ostype,key_name,instance_type,sgs,subnet,root_disk_size,additional_disks,ip,public-ip,userdata,role-tag,platform-tag
-linuxtest,linux,linux,murtu,t2.micro,test-sg,test1,30,"test:20,data:30",10.10.4.22,FALSE,linux-userdata.tpl,app,linux
-windowstest,windows_2016,linux,murtu,t2.micro,test-sg,test2,30,"d:30,e:30",10.10.5.22,FALSE,windows-userdata.tpl,web,windows
-windowspub,windows_2016,,murtu,t2.micro,test-sg,public,30,na,10.10.2.22,TRUE,blank.tpl,pub,windows
+linuxtest,linux,linux,keyname,t2.micro,test-sg,test1,30,"test:20,data:30",10.10.4.22,FALSE,linux-userdata.tpl,app,linux
+windowstest,windows_2016,linux,keyname,t2.micro,test-sg,test2,30,"d:30,e:30",10.10.5.22,FALSE,windows-userdata.tpl,web,windows
+windowspub,windows_2016,,keyname,t2.micro,test-sg,public,30,na,10.10.2.22,TRUE,blank.tpl,pub,windows
